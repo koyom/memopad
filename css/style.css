@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+}
+
+header {
+  background-color: #55a4ff;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+#memo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #a4c0f4;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #55a4ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #3e8cff;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #a4c0f4;
+  padding: 10px;
+  text-align: left;
+  border-radius: 8px;
+}
+
+th {
+  background-color: #55a4ff;
+  color: #fff;
+}
+
+footer {
+  background-color: #55a4ff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#clear {
+  background-color: #2e64b1; /* より濃い青に変更 */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+#clear:hover {
+  background-color: #1d3c6e; /* ホバー時の色も調整 */
+}
